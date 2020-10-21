@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
+using System.Collections.Generic;
 
 namespace ConsoleBasicAplications_ListObjects
 {
@@ -13,11 +14,7 @@ namespace ConsoleBasicAplications_ListObjects
         {
             var nombres = new List<String>() {"Marti Ripoll", "Pere Boladeras", "Stoik Axondo"};
 
-            foreach (String nombre in nombres)
-            {
-                Console.WriteLine(nombre);
-                Thread.Sleep(1000);
-            }
+            
         }
     }
 }
