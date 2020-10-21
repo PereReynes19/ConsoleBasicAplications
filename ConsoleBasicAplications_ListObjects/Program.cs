@@ -4,7 +4,6 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
-using System.Collections.Generic;
 
 namespace ConsoleBasicAplications_ListObjects
 {
@@ -12,9 +11,23 @@ namespace ConsoleBasicAplications_ListObjects
     {
         static void Main(string[] args)
         {
-            var nombres = new List<String>() {"Marti Ripoll", "Pere Boladeras", "Stoik Axondo"};
+          List<PersonModel> personaModels = PersonaModelNombre();
 
-            
+            foreach (PersonModel noms2 in personaModels)
+            {
+                Console.WriteLine("Hola " + noms2);
+                Thread.Sleep(1000);
+            }
+
+        }
+
+        private static List<string> PersonaModelNombre()
+        {
+            List<PersonModel> surt = new List<PersonModel>();
+
+            surt.Add(new PersonModel {FirstName = "Jaime", LastName = "Ripoll" });
+            surt.Add(new PersonModel { FirstName = "Oscar", LastName = "Garcia" });
+            surt.Add(new PersonModel { FirstName = "Lorenzo", LastName = "Lopez" });
         }
     }
 }

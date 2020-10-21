@@ -11,13 +11,14 @@ namespace ConsoleBasicAplications_StringsList
     {
         static void Main(string[] args)
         {
-            String[] nombres = new String[] {"Juan Rodriguez", "Pere Reynes", "Maria Garcia"};
+            var nombres = new List<String>() {"Juan Rodriguez", "Pere Reynes", "Maria Garcia"};
 
             foreach (string nombre in nombres)
             {
-                Console.WriteLine(nombre);
+                Console.WriteLine("Hola " + nombre);
                 Thread.Sleep(1000);
             }
+            Console.ReadLine();
         }
     }
 }
