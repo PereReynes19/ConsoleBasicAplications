@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleBasicAplications_Str
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleBasicAplications_ListObjects", "ConsoleBasicAplications_ListObjects\ConsoleBasicAplications_ListObjects.csproj", "{D3A1331D-6B1D-458D-8B59-45CE5F07AD19}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleBasicAplications_DateHourAplication", "ConsoleBasicAplications_DateHourAplication\ConsoleBasicAplications_DateHourAplication.csproj", "{13FA060D-E213-489D-83ED-AE5B5BDE7D5D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{D3A1331D-6B1D-458D-8B59-45CE5F07AD19}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D3A1331D-6B1D-458D-8B59-45CE5F07AD19}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D3A1331D-6B1D-458D-8B59-45CE5F07AD19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13FA060D-E213-489D-83ED-AE5B5BDE7D5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13FA060D-E213-489D-83ED-AE5B5BDE7D5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13FA060D-E213-489D-83ED-AE5B5BDE7D5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13FA060D-E213-489D-83ED-AE5B5BDE7D5D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
